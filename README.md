@@ -63,7 +63,7 @@ mpiexec -np 2 python ../../../src/main.py --iter 35000 \
 | `num_outneighbor` | Number of out-neighbors, default = `3`. |
 | `seed` | The random seed for creating graph and partitioning dataset amongst nodes, default = `0`. |
 
-
+<br> </br>
 Here is one example to run test scripts code for cifar10, 2nodes using cpu:
 ```
 #!/bin/bash
