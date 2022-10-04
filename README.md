@@ -1,5 +1,5 @@
 # Decentralized Asynchronous Non-convex Stochastic Optimization on Directed Graphs
-The official code for the paper ''[Decentralized Asynchronous Non Convex Stochastic Optimization on Directed Graphs](https://arxiv.org/abs/2110.10406)'' [** Accepted to IEEE Transactions on Control of Network Systems, Oct 2022**]
+The official code for the paper ''[Decentralized Asynchronous Non Convex Stochastic Optimization on Directed Graphs](https://arxiv.org/abs/2110.10406)'' **[Accepted to IEEE Transactions on Control of Network Systems, Oct 2022]**
 
 ## Usage
 First, you need to run the train script. When the train script has been successfully finished, you need to run the test scripts. 
@@ -137,7 +137,3 @@ Please cite our work if you find this repository and the paper useful.
   year={2021}
 }
 '''
-
-
-
-
