@@ -1,5 +1,5 @@
 # Decentralized Asynchronous Non-convex Stochastic Optimization on Directed Graphs
-Decentralized Asynchronous Non Convex Stochastic Optimization on Directed Graphs
+The official code for the paper ''[Decentralized Asynchronous Non Convex Stochastic Optimization on Directed Graphs](https://arxiv.org/abs/2110.10406)'' [** Accepted to IEEE Transactions on Control of Network Systems, Oct 2022**]
 
 ## Usage
 First, you need to run the train script. When the train script has been successfully finished, you need to run the test scripts. 
@@ -126,6 +126,17 @@ Please follow these step to use the code:
 * After running the test script, there will be a folder named `plot` in the save_path directory which contains the results. Other folders in the directory, they contain the snapshots for different nodes and they are raw saved snapshots. 
 * Please also note that for cifar10, the snapshots size are huge and it may require more that 4TB of space. If there is not enough space, after running for several days the runs will be stucked! Also, the test scripts needed to be run over cpuextralong just to be safe. Sometimes the test scripts take about 1 week, especially for 8 nodes and higher. 
 * To reduce the size of saved snapshots, you can increase the snapshot intervals when running the training scripts by adjusting `snapshot` argument to 90 or more seconds.
+
+## Citation
+Please cite our work if you find this repository and the paper useful. 
+'''
+@article{kungurtsev2021decentralized,
+  title={Decentralized Asynchronous Non-convex Stochastic Optimization on Directed Graphs},
+  author={Kungurtsev, Vyacheslav and Morafah, Mahdi and Javidi, Tara and Scutari, Gesualdo},
+  journal={arXiv preprint arXiv:2110.10406},
+  year={2021}
+}
+'''
 
 
 
