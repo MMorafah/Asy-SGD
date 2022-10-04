@@ -140,3 +140,8 @@ Please cite our work if you find this repository and the paper useful.
   year={2021}
 }
 ```
+
+## Acknowledgement
+We used RCI clusters for running the experiments and the #Sbatch parameters in the scripts are for the RCI clusters. 
+The access to the computational infrastructure of the OP VVV funded project CZ.02.1.01/0.0/0.0/16_019/0000765 “Research Center for Informatics” is also gratefully acknowledged for running
+the experiments.
