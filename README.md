@@ -4,6 +4,7 @@ The official code for the paper ''[Decentralized Asynchronous Non Convex Stochas
 ## Usage
 First, you need to run the train script. When the train script has been successfully finished, you need to run the test scripts. 
 
+* **Training script**
 Here is one example to run train scripts code for cifar10, 2nodes using cpu:
 ```
 #SBATCH --time=70:00:00
@@ -64,6 +65,7 @@ mpiexec -np 2 python ../../../src/main.py --iter 35000 \
 | `seed` | The random seed for creating graph and partitioning dataset amongst nodes, default = `0`. |
 
 <br> </br>
+* **Test script**
 Here is one example to run test scripts code for cifar10, 2nodes using cpu:
 ```
 #!/bin/bash
