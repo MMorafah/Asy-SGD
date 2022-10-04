@@ -129,11 +129,14 @@ Please follow these step to use the code:
 
 ## Citation
 Please cite our work if you find this repository and the paper useful. 
-'''
+
+```
+
 @article{kungurtsev2021decentralized,
   title={Decentralized Asynchronous Non-convex Stochastic Optimization on Directed Graphs},
   author={Kungurtsev, Vyacheslav and Morafah, Mahdi and Javidi, Tara and Scutari, Gesualdo},
   journal={arXiv preprint arXiv:2110.10406},
   year={2021}
 }
-'''
+
+```
